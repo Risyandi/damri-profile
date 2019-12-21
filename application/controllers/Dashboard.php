@@ -1,16 +1,11 @@
 <?php
-class Dasboard extends CI_Controller
-{
-    function __construct()
-    {
-        parent::__construct();
-        if ($this->session->userdata('status') != "login") {
-            redirect(base_url("login"));
-        }
-    }
+defined('BASEPATH') or exit('No direct script access allowed');
 
-    function index()
+class Dashboard extends CI_Controller
+{
+    public function index()
     {
+        checkingNotLogin();
         $this->load->view('dashboard');
     }
 }

@@ -9,7 +9,7 @@
     <div class="main">
         <div class="col-md-6 col-sm-12">
             <div class="login-form">
-                <form action="<?php echo base_url('login/actionLogin'); ?>" method="post">
+                <form action="<?php echo base_url('login/authentication'); ?>" method="post">
                     <div class="form-group">
                         <label for="form-username">Username</label>
                         <input type="text" name="username" class="form-control" id="form-username" placeholder="Username">
