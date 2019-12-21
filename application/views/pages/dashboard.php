@@ -10,6 +10,9 @@
             <a class="navbar-brand" href="#">Content Management System</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="<?php echo base_url('login/signout')?>">Signout</a></li>
+          </ul>
             <form class="navbar-form navbar-right">
                 <input type="text" class="form-control" placeholder="Search...">
             </form>
