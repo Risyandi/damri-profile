@@ -9,7 +9,8 @@ Hingga saat ini, **DAMRI** memiliki jaringan pelayanan tersebar hampir di seluru
 **sumber : https://id.wikipedia.org/wiki/DAMRI**
 
 ## Dokumentasi  
-1. [Kebutuhan & Syarat Installasi](./docs/kebutuhan-installasi.md) 
+1. [Kebutuhan & Syarat Installasi](./docs/kebutuhan-installasi.md)
+2. [Detail Halaman](./docs/detail-halaman.md)
 
 ## Tips 
 1. [Mengganti Konfigurasi Web Server Untuk Root Direktori Yang Beda](./docs/tips-konfigurasi-root-direktori.md)
