@@ -14,6 +14,3 @@ Hingga saat ini, **DAMRI** memiliki jaringan pelayanan tersebar hampir di seluru
 
 ## Tips 
 1. [Mengganti Konfigurasi Web Server Untuk Root Direktori Yang Beda](./docs/tips-konfigurasi-root-direktori.md)
-
-
-create : Risyandi
