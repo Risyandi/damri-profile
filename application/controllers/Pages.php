@@ -16,6 +16,35 @@ class Pages extends CI_Controller
 		return $this->modelContent->getAll();
 	}
 
+	// edit content
+	public function edit($id = null)
+	{
+		if (!isset($id)) redirect('');
+		$content = $this->modelContent;
+		$validation = $this->form_validation;
+		$validation->set_rules($content->rules());
+
+		if ($validation->run()) {
+			$content->update();
+			$this->session->set_flashdata('success', 'berhasil disimpan');
+		}
+
+		$data['content'] = $content->getById($id);
+		if (!$data['content']) show_404();
+
+		$this->load->view('', $data);
+	}
+
+	// delete content
+	public function delete($id = null)
+	{
+		if (!isset($id)) show_404();
+
+		if ($this->modelContent->delete($id)) {
+			redirect(base_url('dashboard'));
+		}
+	}
+
 	// view pages
 	public function view($page = 'home')
 	{
