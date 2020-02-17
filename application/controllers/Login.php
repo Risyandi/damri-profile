@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 class Login extends CI_Controller
 {
@@ -34,7 +34,7 @@ class Login extends CI_Controller
             $messageError = "Username atau password yang anda masukan salah!";
             echo "<script>
 					alert('$messageError');
-					window.location='".base_url('login')."';
+					window.location='" . base_url('login') . "';
 				</script>";
         }
     }

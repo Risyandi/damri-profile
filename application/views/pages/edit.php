@@ -46,7 +46,6 @@
                     <small id="alamat" class="form-text text-muted">*required</small>
                 </div>
                 <button type="submit" class="btn btn-primary">Save</button>
-                <button type="submit" class="btn btn-danger">Delete</button>
             </form>
         </div>
     </div>
